@@ -13,10 +13,10 @@ PASOS DEL LABORATORIO:
 8.Aquí les proporciono un ejemplo de código HTML simple para el archivo index.html en la rama principal "main".
 9.Y aquí te proporciono el desarrollo de las funcionalidades que cada estudiante debe trabajar en su propia rama.
 
-
-Nombre de estudiantes:
+Grupo: 1SF-131              Fecha: Miércoles 17 de mayo, 2023
+Integrantes:
 1. Johnny Chen
 2. Nicole Valdés
 3. Yeshua Zapata
 
-Grupo: 1SF-131
+
