@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto de Lab</title>
+
+<style>
+html{
+background-color: #19191a;
+}
+
+h1{
+margin-left: 100px;
+margin-top: -52px;
+margin-bottom: 55px;
+font-family: "Calibri", sans-serif;
+color: white;
+}
+
+p{
+margin-left: 100px;
+margin-bottom: 50px;
+font-family: "Calibri light", sans-serif;
+font-size: 24px;
+color: white;
+}
+	
+section.fms{
+text-align: center;
+width: 1020px;
+}
+
+form{
+text-align: justify;
+margin-left: 268px;
+font-family: "Arial", sans-serif;
+font-size: 18px;
+color: white;
+}
+
+label.desc{
+margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<a class="home" href="main.html"><img src="https://www.clker.com/cliparts/m/6/B/q/n/R/decorative-swirl-gold-hi.png" HSPACE="25" width="65" height="65"></a>
+<h1>Formuario de Contacto</h1>
+<p>Este es un proyecto de práctica para el laboratorio de Github en la asignatura de Calidad de Software</p>
+</header>
+
+<section class="fc">
+<form>
+	<label for="fname">Nombre</label> <input type="text" id="fname" name="fname" style="margin-left:160px; margin-bottom:6px; border-radius:10px; border:3px solid #efb810; height: 23px" pattern="[A-Za-z] tittle="Sólo letras. No se admite caracteres especiales y/o números" required ><br>
+	<label for="lname">Apellido</label> <input type="text" id="lname" name="lname" style="margin-left:160px; border-radius:10px; margin-bottom:6px; border:3px solid #efb810; height: 23px" pattern="[A-Za-z] tittle="Sólo letras. No se admite caracteres especiales y/o números" required><br>
+	<label for="sx">Sexo</label> 
+	<label for="sx" style="margin-left:215px; position: absolute">M</label><input type="radio" id="male" name="sx" value="M" style="margin-left:195px; border-radius:10px; margin-bottom:10px; border:3px solid #efb810; height: 23px" required>
+	<label for="sx" style="margin-left:115px; position: absolute">F</label><input type="radio" id="female" name="sx" value="F" style="margin-left:95px; border-radius:10px; margin-bottom:10px; border:3px solid #efb810; height: 23px" required>
+	<br>
+	<label for="user">Nombre de usuario</label> <input type="text" id="user" name="user" style="margin-left:72px; border-radius:10px; margin-bottom:6px; border:3px solid #efb810; height: 23px" size="20" required><br>
+	<label for="code">Contraseña de usuario</label> <input type="password" id="code" name="code" style="margin-left:44px; border-radius:10px; margin-bottom:6px; border:3px solid #efb810; height: 23px" required><br>
+	<label for="csl">Seleccione el tipo de consulta:</label><br>
+	<input type="checkbox" id="rbugs" name="rbugs" style="margin-left:245px; margin-bottom:12px"><label for="csl">Reporte de bugs</label><br>
+	<input type="checkbox" id="sug" name="sug" style="margin-left:245px; margin-bottom:12px"><label for="csl">Sugerencias</label><br>
+	<input type="checkbox" id="apo" name="apo" style="margin-left:245px; margin-bottom:12px"><label for="csl">Aportes</label><br><br>
+	<label for="desc">Descripción:</label><br>
+	<textarea name="textarea" rows="10" cols="60" style="margin-left:220px; margin-bottom:6px; border-radius:10px; border:3px solid #efb810"></textarea><br>
+	
+	<input type="submit" value="Send" style="margin-left:220px; color: black; border-radius: 8px; border-color: #efb810"/>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
